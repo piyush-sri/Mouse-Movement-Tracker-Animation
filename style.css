@@ -1,0 +1,30 @@
+html,body{
+    height:100%;
+    width:100%;
+}
+#playbtn{
+    border:1px solid red;
+    height:30vh;
+    width:25vw;
+    background-color: black;
+    position:relative;
+    border-radius: 50%;
+    opacity:0;
+    scale:0;
+    color:white;
+}
+span{
+  font-size:5vw;
+  position:absolute;
+  top:40%;
+  left:15%;
+}
+
+#container{
+    background-color: antiquewhite;
+    height:80%;
+    width:100vw;
+    top:10%;
+    border:1px solid red;
+    position:fixed;
+}
